@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-picker" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>CDVPicker</name>
+    <js-module name="CDVPicker" src="www/picker.js">
+        <clobbers target="CDVPicker" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="CDVPicker">
+                <param name="ios-package" value="CDVPicker" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVPicker.h" />
+        <source-file src="src/ios/CDVPicker.m" />
+        <podspec>
+            <config>
+                <source url="https://github.com/CocoaPods/Specs.git"/>
+            </config>
+            <pods use-frameworks="true">
+                <pod name="BRPickerView" />
+            </pods>
+        </podspec>
+    </platform>
+
+</plugin>
