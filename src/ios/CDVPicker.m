@@ -23,7 +23,7 @@
     datePickerView.pickerStyle.titleTextColor = [UIColor blackColor];
     datePickerView.pickerStyle.titleBarColor = [UIColor whiteColor];
     datePickerView.pickerStyle.separatorColor = [self colorWithHex:0xe9e9e9];
-    datePickerView.pickerStyle.titleTextColor = [UIColor whiteColor];
+    datePickerView.pickerStyle.titleTextColor = [UIColor blackColor];
     datePickerView.pickerStyle.selectRowTextColor = [UIColor blackColor];
     datePickerView.pickerStyle.pickerTextColor = [UIColor blackColor];
     datePickerView.pickerStyle.titleLineColor = [self colorWithHex:0xe9e9e9];
@@ -55,7 +55,7 @@
     datePickerView.pickerStyle.titleTextColor = [UIColor blackColor];
     datePickerView.pickerStyle.titleBarColor = [UIColor whiteColor];
     datePickerView.pickerStyle.separatorColor = [self colorWithHex:0xe9e9e9];
-    datePickerView.pickerStyle.titleTextColor = [UIColor whiteColor];
+    datePickerView.pickerStyle.titleTextColor = [UIColor blackColor];
     datePickerView.pickerStyle.selectRowTextColor = [UIColor blackColor];
     datePickerView.pickerStyle.pickerTextColor = [UIColor blackColor];
     datePickerView.pickerStyle.titleLineColor = [self colorWithHex:0xe9e9e9];
@@ -84,7 +84,7 @@
     stringPickerView.pickerStyle.titleTextColor = [UIColor blackColor];
     stringPickerView.pickerStyle.titleBarColor = [UIColor whiteColor];
     stringPickerView.pickerStyle.separatorColor = [self colorWithHex:0xe9e9e9];
-    stringPickerView.pickerStyle.titleTextColor = [UIColor whiteColor];
+    stringPickerView.pickerStyle.titleTextColor = [UIColor blackColor];
     stringPickerView.pickerStyle.selectRowTextColor = [UIColor blackColor];
     stringPickerView.pickerStyle.pickerTextColor = [UIColor blackColor];
     stringPickerView.pickerStyle.titleLineColor = [self colorWithHex:0xe9e9e9];
@@ -121,7 +121,7 @@
     addressPickerView.pickerStyle.titleTextColor = [UIColor blackColor];
     addressPickerView.pickerStyle.titleBarColor = [UIColor whiteColor];
     addressPickerView.pickerStyle.separatorColor = [self colorWithHex:0xe9e9e9];
-    addressPickerView.pickerStyle.titleTextColor = [UIColor whiteColor];
+    addressPickerView.pickerStyle.titleTextColor = [UIColor blackColor];
     addressPickerView.pickerStyle.selectRowTextColor = [UIColor blackColor];
     addressPickerView.pickerStyle.pickerTextColor = [UIColor blackColor];
     addressPickerView.pickerStyle.titleLineColor = [self colorWithHex:0xe9e9e9];
