@@ -90,7 +90,7 @@
     stringPickerView.pickerStyle.titleLineColor = [self colorWithHex:0xe9e9e9];
     stringPickerView.isAutoSelect = NO;
     stringPickerView.resultModelBlock = ^(BRResultModel *resultModel) {
-        [self send_event:command withMessage:@{@"value":resultModel.value} Alive:NO State:YES];
+        [self send_event:command withMessage:@{@"value":resultModel.value, @"index": @(resultModel.index)} Alive:NO State:YES];
     };
     [stringPickerView show];
 }
