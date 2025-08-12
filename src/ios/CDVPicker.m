@@ -1,6 +1,8 @@
 #import <Cordova/CDV.h>
 #import "CDVPicker.h"
 #import <BRPickerView/BRPickerView.h>
+#import <BRPickerView/BRStringPickerView.h>
+#import <BRPickerView/BRAddressPickerView.h>
 
 @implementation CDVPicker
 -(void)open_datepicker:(CDVInvokedUrlCommand *)command
