@@ -1,5 +1,5 @@
 {
-    "name": "picker",
+    "name": "cordova-plugin-picker",
     "version": "0.0.1",
     "description": "no description",
     "cordova": {
